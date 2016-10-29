@@ -1,1 +1,13 @@
-{{outlet}}
+<h1> Welcome to Siam Q &amp; A Message Board</h1>
+<hr>
+<h2>If you got Questions, We have Answer!</h2>
+<h3>We are here to help, we pretty much know all the answers! About Siam
+<br>If we don't, we will make sure someone will!
+</h3>
+<ul>
+  {{#each model as |qustion|}}
+    <li>Here's {{question.name}} Question About '{{question.detail}} in {{question.topic}} topic. </li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}} About us {{/link-to}}
