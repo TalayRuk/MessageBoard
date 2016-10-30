@@ -1,0 +1,34 @@
+{ "questions": [{
+    "name": "Anna Bell",
+    "title": "Where should I stay in Hua-Hin?",
+    "detail": "I'm visiting Hua-Hin in January for a week. I'm looking for beach front bungalow with reasonable price.",
+    "topic": "Beach"
+  }, {
+    "name": "Lilo Selo",
+    "title": "When is 'Water Festival'?",
+    "detail": "Hi, I want to visit Thailand during water festival. Can you tell me when is the festival",
+    "topic": "Festival"
+
+  }, {
+    "name": "Traveler",
+    "title": "Is SiamSquare in the center of everything?",
+    "detail": "I want to do some traveling through out Thailand but I only want to be in main city for couple days before I go down south. I don't want to get stuck in the traffic so I want to stay somewhere where I can take sky train to places.",
+    "topic": "SiamSquare"
+  }]
+}
+
+{ "answers": [{
+    "author": "Talay Siam",
+    "reply": "Anantara Hua Hin Resort is very nice, with Thai traditional decor. Reasonable price during off season (July-September) is around $93",
+    "image": "http://photos.hotelbeds.com/giata/06/061940/061940a_hb_a_006.jpg, http://www.lt5.luxurytravel.pl/wp-content/uploads/2014/07/01-Anantara-Hua-Hin1-235x165.jpg"
+  }, {
+    "author": "Siam007",
+    "reply": "The water festival or 'Song-Kran' starts on April 13th through the 15th. You'll get water splash any time, anywhere. It's very fun so bring your water gun! Warning!!! This is the hotest month of the year so make sure you are hydrated and ready to play",
+    "image": "http://newyearseveblog.com/wp-content/uploads/2015/03/songkran-pattaya.jpg"
+  }, {
+    "author": "siamSquares11",
+    "reply": "Yes. Siamsquare is cituated right in the heart of the city. It's very easy to commute with access to Sky Train(BTS), Underground train to avoid the traffic. The airport Link also drop you off there",
+    "image": "none"
+  }]
+
+}
