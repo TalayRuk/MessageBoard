@@ -1,19 +1,22 @@
 { "questions": [{
+    "topic": "Beach",
     "name": "Anna Bell",
     "title": "Where should I stay in Hua-Hin?",
-    "detail": "I'm visiting Hua-Hin in January for a week. I'm looking for beach front bungalow with reasonable price.",
-    "topic": "Beach"
-  }, {
-    "name": "Lilo Selo",
-    "title": "When is 'Water Festival'?",
-    "detail": "Hi, I want to visit Thailand during water festival. Can you tell me when is the festival",
-    "topic": "Festival"
+    "detail": "I'm visiting Hua-Hin in January for a week. I'm looking for beach front bungalow with reasonable price."
 
   }, {
+    "topic": "Festival",
+    "name": "Lilo Selo",
+    "title": "When is 'Water Festival'?",
+    "detail": "Hi, I want to visit Thailand during water festival. Can you tell me when is the festival"
+
+
+  }, {
+    "topic": "City Center",
     "name": "Traveler",
     "title": "Is SiamSquare in the center of everything?",
-    "detail": "I want to do some traveling through out Thailand but I only want to be in main city for couple days before I go down south. I don't want to get stuck in the traffic so I want to stay somewhere where I can take sky train to places.",
-    "topic": "SiamSquare"
+    "detail": "I want to do some traveling through out Thailand but I only want to be in main city for couple days before I go down south. I don't want to get stuck in the traffic so I want to stay somewhere where I can take sky train to places."
+
   }],
 
  "answers": [{
