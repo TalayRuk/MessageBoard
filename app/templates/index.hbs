@@ -5,7 +5,7 @@
 <br>If we don't, we will make sure someone will!
 </h3>
 <ul>
-  {{#each model as |qustion|}}
+  {{#each model.questions as |qustion|}}
     <li>Here's {{question.name}} Question About {{question.title}} '{{question.detail}} in {{question.topic}} topic. </li>
   {{/each}}
 </ul>
