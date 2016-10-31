@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://il7.picdn.net/shutterstock/videos/12215777/thumb/1.jpg);
+  background-image: url(https://t4.ftcdn.net/jpg/00/88/57/85/240_F_88578561_GDDe0BRvkYrYhdmbrknXCrcL7okznxku.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -7,6 +7,10 @@ body {
 
 h2 {
   text-shadow: 2px 1px white;
+}
+
+h3 {
+  color: black;
 }
 
 .jumbotron {
@@ -25,6 +29,10 @@ h2 {
   padding-bottom: 5px;
   margin-bottom: 15px;
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .contact {
