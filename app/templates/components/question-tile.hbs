@@ -4,9 +4,9 @@
   <!-- {{/link-to}} -->
 
   {{#if isDetailShowing}}
-    <p>
-      {{question.detail}} {{action 'detailHide'}}
-    </p>
+    <a
+      {{question.detail}} {{action 'detailHide'}}>
+    </a>
   {{else}}
       <button {{action 'detailShow'}}>Show Question's detail</button>
   {{/if}}
