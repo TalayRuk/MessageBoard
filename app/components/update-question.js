@@ -20,8 +20,7 @@ export default Ember.Component.extend({
 
       this.sendAction('update', question, params);
       //also send all the arguments through question-tile.js once get action from update-question.js b/c question-tile.hbs is a parent of update-question.hbs.
+      //**FInally this update action is actually move to question.hbs instead of question-tile.hbs
     }
   }
-
-
 });

@@ -1,1 +1,7 @@
-<h2>More information about {{model.name}}'s {{model.title}} </h2>
+<h2>More detail about the question in {{model.topic}}: {{model.title}} from {{model.name}} </h2>
+
+<!-- add Update() & deleteQuestion Here -->
+{{update-question question=model update="update"}}
+
+{{question-detail question=model deleteQuestion="deleteQuestion" deleteAnswer="deleteAnswer"}}
+<!-- both "deleteQuestion" & "deleteAnswer" refer to delete action that will be send up to firebase -->
