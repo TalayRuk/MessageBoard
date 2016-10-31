@@ -12,8 +12,8 @@
 <ul>
   {{#each question.answers as |answer|}}
     <!-- next add code answer-tile.hbs to display inside question-detail -->
-    {{answer-tile answer=answer deleteAnser="deleteAnswer"}}
-    <!-- next add code deleteAnswer to question-detail-->
+    <!-- need to add deleteAnswer from code added in question-detail.js -->
+    {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}
 </ul>
 
