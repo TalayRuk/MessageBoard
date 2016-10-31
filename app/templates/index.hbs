@@ -10,4 +10,11 @@
   {{/each}}
 </ul>
 
+<h2>All Answers</h2>
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.reply}} -{{answer.image}} - by {{answer.author}} </li>
+  {{/each}}  
+</ul>
+<br>
 {{#link-to 'about'}}About us{{/link-to}}
