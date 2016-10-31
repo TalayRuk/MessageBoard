@@ -3,8 +3,8 @@
   {{/link-to}}
 
   {{#if isQuestionShowing}}
-    <a href= {{question.title}} {{action 'questionHide'}}>
-    </a>
+    <p {{question.title}} {{action 'questionHide'}}>
+    </p>
   {{else}}
       <button {{action 'questionShow'}}>Show Question's detail</button>
   {{/if}}
