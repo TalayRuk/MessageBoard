@@ -1,20 +1,32 @@
-<h1> Welcome to Siam Q &amp; A Message Board</h1>
-<hr>
-<h2>If you got Questions, We have Answer!</h2>
-<h3>We are here to help, we pretty much know all the answers! About Siam
-<br>If we don't, we will make sure someone will!
-</h3>
-<ul>
-  {{#each model.questions as |qustion|}}
-    {{question-tile question=question}}
-  {{/each}}
-</ul>
+<div class="border">
+  <h1> Welcome to Siam Q &amp; A Message Board</h1>
+</div>
+<br>
+<h2>If you got Questions, We have the answer!</h2>
+<h3>We are here to help.</h3>
+<h4>If we don't know the answer, we will make sure someone will! </h4>
 
-<h2>All Answers</h2>
+<br>
+<div class="border">
+  <h2>Questions: </h2>
+  <ul>
+    {{#each model.questions as |qustion|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </ul>
+</div>
+
+<br>
+
+<div class="border">
+  <h2>Here are the Answers: </h2>
 <ul>
   {{#each model.answers as |answer|}}
     <li>{{answer.reply}} -{{answer.image}} - by {{answer.author}} </li>
-  {{/each}}  
+  {{/each}}
 </ul>
+</div>
 <br>
-{{#link-to 'about'}}About us{{/link-to}}
+<div class="contact">
+  {{#link-to 'about'}}About us{{/link-to}}
+</div>
