@@ -6,11 +6,11 @@ export default Ember.Component.extend({
   actions: {
     //button clicked
     detailShow: function() {
-      this.set('isDetailShowing', true);
+      this.set('isDetailShow', true);
     },
     //hide the detailShow
     detailHide: function() {
-      this.set('isDetailShowing', false);
+      this.set('isDetailShow', false);
     }
   }
 });
