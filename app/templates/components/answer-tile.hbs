@@ -1,1 +1,15 @@
-{{yield}}
+{{#if addNewAnswer}}
+<h2>Here are the Answers to the question: </h2>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="author">Answer by: </label>
+      {{input value=author id="author"}}
+    </div>
+    <div class="form-group">
+      <label for="reply">Here's the answer: </label>
+      {{input value=reply id="reply"}}  
+    </div>
+  </form>
+
+</div>
