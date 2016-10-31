@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   //start with no form if questionFormShow btn clicked .. show form
   addNewQuestion: false,
-  action: {
+  actions: {
     questionFormShow() {
       this.set('addNewQuestion', true);
     },
