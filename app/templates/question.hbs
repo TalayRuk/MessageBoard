@@ -1,9 +1,13 @@
-<h2>More detail about the question in {{model.topic}}: {{model.title}} from {{model.name}} </h2>
+<!-- Individual question page -->
+<h2>Question: {{model.title}} <br>
+  Topic: {{model.topic}}, <br>
+  from {{model.name}} </h2>
 
 <!-- add Update() & deleteQuestion Here -->
 {{update-question question=model update="update"}}
 
 {{question-detail question=model deleteQuestion="deleteQuestion" deleteAnswer="deleteAnswer"}}
 <!-- both "deleteQuestion" & "deleteAnswer" refer to delete action that will be send up to firebase -->
+
 {{new-answer saveAnswer="saveAnswer" question=model}}
 <!-- we need to add the answer to the question Model Once this is added .. we can start link new-review to the question.hbs-->
