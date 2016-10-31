@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   //start w/false so the button will show
-  updateQuestionForm: false;
+  updateQuestionForm: false,
   actions: {
     updateQuestionForm() {
       this.set('updateQuestionForm', true);

@@ -10,10 +10,10 @@ export default Ember.Route.extend({
   },
   actions: {
     update(question, params) {
-      debugger;
+      // debugger;
       //add update()code using keys to find question that need to be update
       Object.keys(params).forEach(function(key) {
-        if(params[key] !== underfined) {
+        if(params[key] !== undefined) {
           question.set(key, params[key]);
           //take the question & set the property that matches the current key to the value of the current key,
           //To ensure that the property that the user has updated will be changed, but the properties that user hasn't update will stay the same. That's why we using undefined. saying if it's undefined leave it be.
@@ -59,3 +59,4 @@ export default Ember.Route.extend({
     }
   }
 });
+//**********Want to add Update ANSWER next**

@@ -1,16 +1,16 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  isDetailShowing: false,
+  isQuestionShowing: false,
 
   actions: {
     //button clicked
-    detailShow: function() {
-      this.set('isDetailShowing', true);
+    questionShow: function() {
+      this.set('isQuestionShowing', true);
     },
     //hide the detailShow
-    detailHide: function() {
-      this.set('isDetailShowing', false);
+    questionHide: function() {
+      this.set('isQuestionShowing', false);
     }
   }
 });
