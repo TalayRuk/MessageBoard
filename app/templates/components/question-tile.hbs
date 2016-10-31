@@ -1,1 +1,11 @@
-{{yield}}
+<li>
+  Choose the Topic: {{question.topic}} Question About {{question.title}} from {{question.name}}
+
+  {{#if isDetailShowing}}
+    <p>
+      {{question.detail}}
+    </p>
+  {{else}}
+      <button type="button" name="button">Show Question's detail</button>
+  {{/if}}    
+</li>

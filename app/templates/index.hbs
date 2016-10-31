@@ -6,7 +6,7 @@
 </h3>
 <ul>
   {{#each model.questions as |qustion|}}
-    <li>Here's {{question.name}} Question About {{question.title}} '{{question.detail}} in {{question.topic}} topic. </li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
