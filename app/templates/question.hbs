@@ -5,3 +5,5 @@
 
 {{question-detail question=model deleteQuestion="deleteQuestion" deleteAnswer="deleteAnswer"}}
 <!-- both "deleteQuestion" & "deleteAnswer" refer to delete action that will be send up to firebase -->
+{{new-answer saveAnswer="saveAnswer" question=model}}
+<!-- we need to add the answer to the question Model Once this is added .. we can start link new-review to the question.hbs-->

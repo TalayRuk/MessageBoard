@@ -12,7 +12,11 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         reply: this.get('reply'),
-        image: this.get('image')
+        image: this.get('image'),
+        //add question as a joint table
+        question: this.get('question')
+        //(one to many relationship but don't need to add answer to newquestionForm b/c the question MODEL is already in the answerModel & in question.hbs that's why we add question=model to the saveAnswer in question.hbs)
+
       };
       //reset addNewAnswer back to false;
       this.set('addNewAnswer', false);
