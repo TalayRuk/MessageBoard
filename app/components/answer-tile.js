@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   actions: {
     delete(answer) {
       if (confirm('Are you sure you want to delte this answer?')) {
-        this.sendAction('deleteAnswer', answer);
+        this.sendAction('deleteAnswer', answer); //send deleteAnswer to question.hbs
       }
     }
   }
