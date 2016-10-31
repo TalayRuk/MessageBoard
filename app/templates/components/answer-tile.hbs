@@ -1,15 +1,10 @@
-{{#if addNewAnswer}}
-<h2>Here are the Answers to the question: </h2>
-<div>
-  <form>
-    <div class="form-group">
-      <label for="author">Answer by: </label>
-      {{input value=author id="author"}}
-    </div>
-    <div class="form-group">
-      <label for="reply">Here's the answer: </label>
-      {{input value=reply id="reply"}}  
-    </div>
-  </form>
+<!-- answer is nested in the individual question-detail.hbs
+****answer-tile is TO DELETE ANSWER INDIVIDUALY at the index  -->
+<li>{{answer.reply}} - {{answer.image}} - by {{answer.author}}</li>
 
-</div>
+<!-- Add delete answer -->
+<!-- When we delete the parent in a one-to-many relationship, we will also want to delete all of its child answers as well! -->
+
+<button {{action 'delete' answer}}>Delete the Answer</button>
+
+<!--next we will add delete code in answer-tile.js  -->
