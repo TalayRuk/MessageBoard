@@ -1,11 +1,12 @@
 <li>
-  {{#link-to 'question' question.id}}{{question.topic}} Question: {{question.title}} from {{question.name}}
+  {{#link-to 'question' question.id}}
+  <h3>{{question.topic}} Topic</h3>  - Q?: {{question.title}} from {{question.name}}
   {{/link-to}}
 
-  {{#if isQuestionShowing}}
-    <p {{question.title}} {{action 'questionHide'}}>
+  {{#if isDetailShowing}}
+    <p {{question.detail}} {{action 'detailHide'}}>
     </p>
   {{else}}
-      <button {{action 'questionShow'}}>Show Question's detail</button>
+      <button {{action 'detailShow'}}>Detail</button>
   {{/if}}
 </li>

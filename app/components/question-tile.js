@@ -5,12 +5,12 @@ export default Ember.Component.extend({
 
   actions: {
     //button clicked
-    questionShow: function() {
-      this.set('isQuestionShowing', true);
+    detailShow: function() {
+      this.set('isDetailShowing', true);
     },
     //hide the detailShow
-    questionHide: function() {
-      this.set('isQuestionShowing', false);
+    detailHide: function() {
+      this.set('isDetailShowing', false);
     }
   }
 });
