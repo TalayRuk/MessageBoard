@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="#">SIAM Q&amp;A Message Board</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -24,11 +24,13 @@
 </nav>
 <div class="container">
   <header class="jumbotron">
-    <h1>SIAM Q&amp;A MESSAGE BOARD</h1>
+<br>
+<br>
   </header>
   {{outlet}}
-  <hr>
-  <footer>
-    {{#link-to 'contact'}} Need help? click here to Contact Us {{/link-to}}
+  <br>
+  <footer class="contact">
+      {{#link-to 'contact'}} Need help? click here to Contact Us {{/link-to}}
+      {{#link-to 'index'}}  ...Homepage {{/link-to}}
   </footer>
 </div>

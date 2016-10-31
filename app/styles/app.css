@@ -1,0 +1,25 @@
+body {
+  background-image: url(https://il7.picdn.net/shutterstock/videos/12215777/thumb/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+h2 {
+  text-shadow: 2px 1px white;
+}
+
+.jumbotron {
+  background-image: url(image/thailandbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+
+}
+
+.contact {
+  color: white;
+    /*font color won't change*/
+  text-shadow: 1px 1px white;
+  font-style: italic;
+}
