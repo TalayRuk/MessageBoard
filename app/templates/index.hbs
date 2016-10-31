@@ -24,7 +24,11 @@
   <h2>Here are the Answers: </h2>
 <ul>
   {{#each model.answers as |answer|}}
-    <li>{{answer.reply}} - <img src="{{answer.image}}" alt="image"/>  - by {{answer.author}} </li>
+    <li>Answer: {{answer.reply}}</li>
+    <li><img src="{{answer.image}}" alt="image"/></li>
+    <li class="guru">Guru: {{answer.author}} </li>
+
+    <hr>
   {{/each}}
 </ul>
 </div>

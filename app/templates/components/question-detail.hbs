@@ -1,12 +1,14 @@
 <!-- Refactoring: This page displays individual question -->
 <!-- user interactions w/question will occur on this route which we'll have update() & delete() in this question-detail.js  -->
 
-<h4>{{question.topic}}: 
+<h4>{{question.topic}}:
 I have question about {{question.title}} Question from {{question.name}}</h4>
 <br>
   <p>
     {{question.detail}}
   </p>
+
+<button {{action 'delete' question}}>Delete Question</button>  
 <!-- add this after add the new-answer -->
 <h2>Here are the Answers: </h2>
 <ul>
@@ -16,5 +18,3 @@ I have question about {{question.title}} Question from {{question.name}}</h4>
     {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}
 </ul>
-
-<button {{action 'delete' question}}>Delete Question</button>

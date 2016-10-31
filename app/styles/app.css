@@ -35,6 +35,17 @@ ul {
   list-style-type: none;
 }
 
+img {
+  width: 25%;
+  float: inherit;
+
+}
+
+.guru {
+  font-style: italic;
+  text-shadow: 1px 1px white;
+
+}
 .contact {
   color: white;
     /*font color won't change*/
