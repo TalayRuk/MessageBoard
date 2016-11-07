@@ -1,0 +1,30 @@
+{{#if updateQuestionForm}}
+
+  <h4>Update {{question.userName}}'s {{question.title}}: </h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="topic">Topic: </label>
+        {{input value=topic id="topic" placeholder=question.topic}}
+      </div>
+      <div class="form-group">
+        <label for="userName">User Name: </label>
+        {{input value=userName  id="userName" placeholder=question.userName}}
+      </div>
+      <div class="form-group">
+        <label for="title">Title: </label>
+        {{input value=title  id="title" placeholder=question.title}}
+      </div>
+      <div class="form-group">
+        <!-- ***Want to add text area -->
+        <label for="detail">Detail: </label>
+        {{textarea value=detail cols="80" rows="6" maxlength="400" placeholder=question.detail}}
+      </div>
+      <br>
+      <button {{action 'update' question}}>Save Update</button>
+    </form>
+  </div>
+{{else}}
+  <!-- add update btn to show form -->
+  <button {{action 'updateQuestionForm'}}>Edit Question</button>
+{{/if}}

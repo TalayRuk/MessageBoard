@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 export function questionPopularity(params/*, hash*/) {
   var question = params[0];
 

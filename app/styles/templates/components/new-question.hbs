@@ -1,0 +1,34 @@
+<!-- set addNewQuestion property to true/false -->
+<!-- if false, add button so that it can be clicked to show form-->
+
+{{#if addNewQuestion}}
+
+<h1>Add New Question here: </h1>
+<div>
+  <form>
+    <div class="form-group">
+      <!-- ***Want to add dropdown  -->
+      <label for="topic">Topic:</label>
+      {{input value=topic id="topic"}}
+    </div>
+    <div class="form-group">
+      <label for="userName">User Name: </label>
+      {{input value=userName  id="userName"}}
+    </div>
+    <div class="form-group">
+      <label for="title">Title: </label>
+      {{input value=title  id="title"}}
+    </div>
+    <div class="form-group">
+      <!-- ***Want to add text area -->
+      <label for="detail">Detail: </label>
+      {{textarea value=detail cols="80" rows="6" maxlength="400"}}
+    </div>
+    <br>
+    <button {{action 'saveQuestion1'}}>Save</button>
+  </form>
+</div>
+<!--if false add button  -->
+{{else}}
+  <button {{action 'questionFormShow'}}>Ask Question</button>
+{{/if}}
