@@ -1,6 +1,6 @@
 {{#if updateQuestionForm}}
 
-  <h4>Update {{question.name}}'s {{question.title}}: </h4>
+  <h4>Update {{question.userName}}'s {{question.title}}: </h4>
   <div>
     <form>
       <div class="form-group">
@@ -8,8 +8,8 @@
         {{input value=topic id="topic" placeholder=question.topic}}
       </div>
       <div class="form-group">
-        <label for="name">Name: </label>
-        {{input value=name  id="name" placeholder=question.name}}
+        <label for="userName">User Name: </label>
+        {{input value=userName  id="userName" placeholder=question.userName}}
       </div>
       <div class="form-group">
         <label for="title">Title: </label>

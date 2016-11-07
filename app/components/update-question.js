@@ -11,7 +11,7 @@ export default Ember.Component.extend({
     update(question) {
       var params = {
         topic: this.get('topic'),
-        name: this.get('name'),
+        userName: this.get('userName'),
         title: this.get('title'),
         detail: this.get('detail'),
       };

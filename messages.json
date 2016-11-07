@@ -1,12 +1,12 @@
 { "questions": [{
     "topic": "Beach",
-    "name": "Anna Bell",
+    "userName": "Anna Bell",
     "title": "Where should I stay in Hua-Hin?",
     "detail": "I'm visiting Hua-Hin in January for a week. I'm looking for beach front bungalow with reasonable price."
 
   }, {
     "topic": "Festival",
-    "name": "Lilo Selo",
+    "userName": "Lilo Selo",
     "title": "When is 'Water Festival'?",
     "detail": "Hi, I want to visit Thailand during water festival. Can you tell me when is the festival"
   }],

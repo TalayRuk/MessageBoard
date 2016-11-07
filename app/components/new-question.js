@@ -11,7 +11,7 @@ export default Ember.Component.extend({
     saveQuestion1() {
       var params = {
         topic: this.get('topic'),
-        name: this.get('name'),
+        userName: this.get('userName'),
         title: this.get('title'),
         detail: this.get('detail'),
       };
@@ -19,7 +19,7 @@ export default Ember.Component.extend({
       this.set('addNewQuestion', false);
 
       this.sendAction('saveQuestion2', params);
-      //saveQuestion1 = the action that exist in new-rental;Job=to collects & save data & set them in a hash of keys w/the same name in firebase
+      //saveQuestion1 = the action that exist in new-rental;Job=to collects & save data & set them in a hash of keys w/the same userName in firebase
       //saveQuestion2 = a path =action up to route handler (in this case index.hbs)
 
     }
