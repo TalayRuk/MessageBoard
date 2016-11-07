@@ -15,10 +15,44 @@
     "author": "Talay Siam",
     "reply": "Anantara Hua Hin Resort is very nice, with Thai traditional decor. Reasonable price during off season (July-September) is around $93",
     "image": "http://www.lt5.luxurytravel.pl/wp-content/uploads/2014/07/01-Anantara-Hua-Hin1-235x165.jpg"
-  }, {
-    "author": "Siam007",
-    "reply": "The water festival or 'Song-Kran' starts on April 13th through the 15th. You'll get water splash any time, anywhere. It's very fun so bring your water gun! Warning!!! This is the hotest month of the year so make sure you are hydrated and ready to play",
-    "image": "http://newyearseveblog.com/wp-content/uploads/2015/03/songkran-pattaya.jpg"
-  }]
+  }],
 
+  "products": [{
+    "name": "Traditional Thai Condiment Set",
+    "image": "https://s-media-cache-ak0.pinimg.com/236x/90/82/94/908294fe2e5702969e4912125586c821.jpg",
+    "description": "Handpainted ceramic condiment set imported from Thailand. Each piece is painted by hand using a traditional design unique to Thai artisans.
+    Not a table in Thailand serves food without a little carryall that has the essential four condiments: sugar, vinegar, ground chile pepper, fish sauce. More info: Thai Table Condiments.",
+    "cost": 45
+  }, {
+    "name": "Thai Rice Serving",
+    "image": "http://www.templeofthai.com/images/products/6210000300.jpg",
+    "description": "A fancy aluminum rice bowl with a distinctive Thai pattern stamped into the bowl and lid. The shape is a traditional Thai-style. Convenient handles are solidly riveted to the bowl which makes a nice presentation.",
+    "cost": 28
+  }, {
+    "name": "Kanom Krok Pan",
+    "image": "http://learnthaiwithmod.com/wp-content/uploads/2013/10/kanom-krok-pan.jpg",
+    "description": "Own a legend of Thai cooking, and prepare the tastiest desert which delights the American and Thai pallette, with the Kanom Krok pan.
+    The pan is heavy, solid cast-iron, made n Thailand by a well-known manufacturer of this pan. You can find see street vendors selling khanom krok on nearly every street thoughout the country!",
+    "cost": 42
+  }, {
+    "name": "Thai Brown Jasmine Rice, 4 lb bag",
+    "image": "http://importfood.com/media/nrco0508-1l.jpg",
+    "description": "A healthy alternative to white jasmine rice, with the same wonderful aroma. As explained below, this is premium quality jasmine rice has not gone through the final stage of polishing, so it still contains the outer layer of rice bran.",
+    "cost": 10
+  }, {
+    "name": "Handpainted Thai Ceramics: Collector Set",
+    "image": "http://importfood.com/media/ceramics-set-1l.jpg",
+    "description": "Each piece is painted by hand using a traditional design unique to Thai artisans. Flawless, we import only the finest grade. Thick and durable, an everlasting quality. Microwave and dishwasher safe.",
+    "cost": 70
+  }, {
+    "name": "Thai Spice Kit",
+    "image": "http://importfood.com/media/spicekit120312.jpg",
+    "description": "All of these are fresh from the spice mill and perfect for making a lovely holiday gift for anyone who enjoys cooking, unique premium quality fresh Thai spices.",
+    "cost": 36
+  }, {
+    "name": "DVD: Learn How To Cook Like a Thai Street Vendor",
+    "image": "http://importfood.com/media/DVD-Cover_importfood_1l.jpg",
+    "description": "For two years we've presented new, professionally-produced Thai Street Vendor videos at ImportFood.com. Many customers say these videos offer the best instruction on how to cook authentic Thai food, and request that we offer it on DVD.",
+    "cost": 18
+  }]
 }

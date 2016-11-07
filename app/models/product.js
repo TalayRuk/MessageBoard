@@ -5,5 +5,5 @@ export default DS.Model.extend({
   image: DS.attr(),
   description: DS.attr(),
   cost: DS.attr(),
-  favorites: DS.attr(),
+//add review later
 });

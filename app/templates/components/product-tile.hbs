@@ -1,6 +1,7 @@
-{{product.name}}
-{{product.image}}
-{{product.description}}
-{{product.cost}}
+<!-- product listing -->
+{{product.name}}  price: ${{product.cost}} <br>
+{{product.image}} <br>
+Description: {{product.description}} <br>
 
+<!-- add product -->
 <button {{action 'addToCart' product}}>Add To Cart</button>
