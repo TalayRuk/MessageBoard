@@ -1,7 +1,16 @@
 <!-- answer is nested in the individual question-detail.hbs
 ****answer-tile is TO DELETE ANSWER INDIVIDUALY at the index  -->
 <br>
-<li><span class="glyphicon glyphicon-user"></span> {{answer.author}} <br>{{answer.reply}} <br> <img src="{{answer.image}}" alt="image" /></li>
+<li><span class="glyphicon glyphicon-user"></span> Guru: {{answer.author}} <br>{{answer.reply}} <br>
+  <!-- {{#if isImageShown}}
+  check if there is image -->
+  <p>
+    <img src="{{answer.image}}" alt="image" {{action 'imageHide'}}>
+  </p>
+  <!-- {{else}}
+    <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}} -->
+</li>
 
 <!-- Add delete answer -->
 <!-- When we delete the parent in a one-to-many relationship, we will also want to delete all of its child answers as well! -->
