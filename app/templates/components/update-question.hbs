@@ -18,7 +18,7 @@
       <div class="form-group">
         <!-- ***Want to add text area -->
         <label for="detail">Detail: </label>
-        {{input value=detail  id="detail" placeholder=question.detail}}
+        {{textarea value=detail cols="80" rows="6" maxlength="400" placeholder=question.detail}}
       </div>
       <br>
       <button {{action 'update' question}}>Save Update</button>

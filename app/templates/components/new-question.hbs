@@ -22,7 +22,7 @@
     <div class="form-group">
       <!-- ***Want to add text area -->
       <label for="detail">Detail: </label>
-      {{input value=detail  id="detail"}}
+      {{textarea value=detail cols="80" rows="6" maxlength="400"}}
     </div>
     <br>
     <button {{action 'saveQuestion1'}}>Save</button>
