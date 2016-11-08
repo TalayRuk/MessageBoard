@@ -67,3 +67,13 @@ button {
   font-style: italic;
   margin-top: 10px;
 }
+.cost-helper {
+  color: red;
+  font-size: 9px;
+}
+.price {
+  color: green;
+}
+.total {
+  color: blue;
+}

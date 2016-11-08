@@ -4,7 +4,7 @@ export function productCost(params/*, hash*/) {
   var productPrice = params[0].get('cost');
 
   if (productPrice >= 70){
-    return 'HARD TO FIND!';
+    return 'GREAT FIND!';
   } else if (productPrice >= 30){
     return 'EXCELLENT VALUE!';
   } else if (productPrice < 30) {
