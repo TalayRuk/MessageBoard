@@ -1,7 +1,17 @@
 # MessageBoard
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Create a program to answer any questions about Siam or Thailand_
+
+#### By _** Vichitra Pool / October 27th, 2016**_
+
+## Description
+
+_* Allow a user to create questions
+ * Allow a user to answer the questions
+ * When the questions has more than 3 answers, it will populate star in front of the question.
+ 
+
+
 
 ## Prerequisites
 
@@ -13,9 +23,9 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/TalayRuk/MessageBoard.git note>` this repository
 * `cd MessageBoard`
 * `npm install`
 * `bower install`
@@ -39,9 +49,19 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Support and contact details
 
-Specify what it takes to deploy your app.
+Please contact the authors if you have any questions or comments.
+
+## Technologies Used
+
+C#, Nancy, Razor, Xunit, Database and cshtml.
+
+### License
+
+Copyright (c) 2016 **_Vichitra Pool_**
+
+This software is licensed under the MIT license.
 
 ## Further Reading / Useful Links
 

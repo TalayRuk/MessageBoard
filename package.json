@@ -23,6 +23,7 @@
     "ember": "1.0.0-pre.2",
     "ember-ajax": "^2.4.1",
     "ember-bootstrap": "0.11.1",
+    "ember-bootstrap-nav": "0.1.2",
     "ember-cli": "2.9.1",
     "ember-cli-app-version": "^2.0.0",
     "ember-cli-babel": "^5.1.7",
