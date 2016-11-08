@@ -9,7 +9,8 @@
 _* Allow a user to create questions
  * Allow a user to answer the questions
  * When the questions has more than 3 answers, it will populate star in front of the question.
- 
+ * User can shop products that related to Thailand.
+ * User can add products to the cart and will show the total price.
 
 
 
