@@ -3,7 +3,6 @@ import Ember from 'ember';
 const {
   Component,
   inject,
-  computed,
   computed: { alias, mapBy, sum},
 } = Ember;
 
@@ -20,9 +19,9 @@ export default Component.extend({
   totalPrice: sum('productPriceArray')
   //add all the costs in the array together.
 
-  actions: {
-    remove(product) {
-      this.get('shoppingCart').remove(product);
-    }
-  }
+  // actions: {
+  //   remove(product) {
+  //     this.get('shoppingCart').remove(product);
+  //   }
+  // }
 });
