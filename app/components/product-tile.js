@@ -6,6 +6,6 @@ export default Ember.Component.extend({
   actions: {//not working!
     addToCart(product) {
       this.get('shoppingCart').add(product);
-    }
+    },//only the COMMA was missing so action wasn't working!!!!
   }
 });
