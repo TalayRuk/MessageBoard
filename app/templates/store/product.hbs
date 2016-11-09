@@ -1,1 +1,15 @@
-{{outlet}}
+<h4>
+<span class="cost-helper">
+  {{product-cost product}}
+</span> {{product.name}}                       <span class="price">           ${{product.cost}}</span>
+</h4>
+<img src="{{product.image}}" alt="product"/>
+ <br>
+Description: {{product.description}}
+ <br>
+
+<!-- add product -->
+<button {{action 'addToCart' product}}>Add To Cart</button>
+<hr>
+
+<!-- NEXT: STORE/PRODUCT.JS  -->
