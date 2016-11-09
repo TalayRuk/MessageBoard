@@ -1,5 +1,8 @@
 <!-- showing all product ... wish:separate in categories! -->
 {{#each model as |product|}}
-{{product-tile product=product}}
+  {{#link-to 'store.product' product.id}}{{product-tile product=product}}
 
 {{/each}}
+
+{{display-cart product=product}}
+{{product-tile addToCart="addToCart"}}

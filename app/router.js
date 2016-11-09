@@ -11,8 +11,9 @@ Router.map(function() {
   this.route('contact');
   this.route('question', {path: '/question/:question_id'});
   //path id = dynamic segment
-  this.route('store');
-  this.route('checkout');
+  this.route('store' function() {
+    this.route('product', {path: '/:product_id'});
+  });
 });
 
 export default Router;
