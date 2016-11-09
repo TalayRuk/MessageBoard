@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('question', {path: '/question/:question_id'});
   //path id = dynamic segment
   this.route('store' function() {
+    //add nested route product = child 
     this.route('product', {path: '/:product_id'});
   });
 });

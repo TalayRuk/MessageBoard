@@ -1,8 +1,14 @@
-<!-- showing all product ... wish:separate in categories! -->
+<!-- PARENT ROUTE  -->
+<h2>MADE IN THAILAND Store: </h2>
+
 {{#each model as |product|}}
-  {{#link-to 'store.product' product.id}}{{product-tile product=product}}
+  {{#link-to 'store.product' product.id}}{{product.name}} price ${{product.cost}}
+  {{/link-to}}
 
 {{/each}}
 
-{{display-cart product=product}}
-{{product-tile addToCart="addToCart"}}
+<!-- Parent route need to add {{#link-to)) & also add outlet helper at the bottom -->
+{{outlet}}
+
+<!-- {{display-cart product=product}}
+{{product-tile addToCart="addToCart"}} -->
