@@ -1,0 +1,22 @@
+<!-- Refactoring: This page displays individual question -->
+<!-- user interactions w/question will occur on this route which we'll have update() & delete() in this question-detail.js  -->
+
+<!-- Inside of question.hbs page just under Edit Question -->
+<h4>{{question.topic}}:
+I have question about: "{{question.title}}" <br>
+from {{question.userName}}</h4>
+<br>
+  <p class="detail">
+    "{{question.detail}}"
+  </p>
+
+<button {{action 'delete' question}}>Delete Question</button>
+<!-- add this after add the new-answer -->
+<h2>Here are the Answers: </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    <!-- next add code answer-tile.hbs to display inside question-detail -->
+    <!-- need to add deleteAnswer from code added in question-detail.js -->
+    {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
+  {{/each}}
+</ul>
