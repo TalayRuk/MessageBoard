@@ -12,7 +12,7 @@
   <h2>Questions: </h2>
   <ul>
     {{#each model.questions as |question|}}
-      {{question-tile question=question}}
+      {{question-tile question=question}} 
     {{/each}}
   </ul>
   {{new-question saveQuestion2="saveQuestion3"}}
@@ -22,15 +22,7 @@
 <br>
 
 <div class="border">
-  <h2>Here are the Answers: </h2>
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>Answer: {{answer.reply}}</li>
-    <li><img src="{{answer.image}}" alt="image"/></li>
-    <li class="guru">Guru: {{answer.author}} </li>
-
-    <hr>
-  {{/each}}
-</ul>
+  <h2>Here are the favorite questions: </h2>
+{{favorite-questions}}
 </div>
 <br>

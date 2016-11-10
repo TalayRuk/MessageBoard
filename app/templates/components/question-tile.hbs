@@ -3,12 +3,13 @@
   <h3>{{question.topic}} Topic</h3>   {{question-popularity question}} Q?: {{question.title}} from {{question.userName}}
   {{/link-to}}
   <br>
+  <button {{action 'addFavoriteQ' question}}>Favorite Q</button>
   {{#if isDetailShow}}
     <a href="#"
        {{action 'detailHide'}}>{{question.detail}}
     </a>
   {{else}}
-    <button {{action 'detailShow'}}> Detail</button>
+    <button {{action 'detailShow'}}>Detail</button>
   {{/if}}
 </li>
 <!-- <button {{action 'addFavQuestion' question}}>Add this to my favorite</button> -->
