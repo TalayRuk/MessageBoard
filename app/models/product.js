@@ -6,4 +6,5 @@ export default DS.Model.extend({
   description: DS.attr(),
   cost: DS.attr(),
 //add review later
+
 });

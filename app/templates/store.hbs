@@ -2,9 +2,10 @@
 <h2>Welcome to Made-in-Thailand Store: </h2>
 
 {{#each store.product as |product|}}
-  {{#link-to 'store.product' product.id}} {{product.name}} {{product.cost}}{{/link-to}}
+  {{#link-to }} {{product.name}} {{product.cost}}{{/link-to}}
 {{/each}}
 
 {{outlet}}
 
 {{!-- Parent route need to add #link-to & also add outlet helper at the bottom This is where the template of the child route will be display NEXT: TO STORE/product.hbs --}}
+{{store.product}}
