@@ -63,7 +63,18 @@ button {
 .contact {
   color: white;
     /*font color won't change*/
+  text-align: center; 
   text-shadow: 1px 1px white;
   font-style: italic;
   margin-top: 10px;
+}
+.cost-helper {
+  color: red;
+  font-size: 9px;
+}
+.price {
+  color: green;
+}
+.total {
+  color: blue;
 }

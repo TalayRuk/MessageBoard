@@ -1,0 +1,13 @@
+<h3>Shopping Cart: </h3>
+<!-- add if none in cart! -->
+{{#each shoppingCart.products as |product|}}
+<!-- show product&price in the cart -->
+  {{product.name}}  price ${{product.cost}} <br>
+    <!-- remove function -->
+    <button class"btn-sm" {{action 'remove' product}}>remove</button> <br>
+
+{{/each}}
+
+<hr>
+
+<h3 class="total"> Total price for all product: <span class="price"> ${{totalPrice}}</span></h3>

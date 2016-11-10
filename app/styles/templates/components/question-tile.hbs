@@ -1,6 +1,6 @@
 <li>
   {{#link-to 'question' question.id}}
-  <h3>{{question.topic}} Topic</h3>   Q?: {{question.title}} from {{question.userName}}
+  <h3>{{question.topic}} Topic</h3>   {{question-popularity question}} Q?: {{question.title}} from {{question.userName}}
   {{/link-to}}
   <br>
   {{#if isDetailShow}}
@@ -11,3 +11,4 @@
     <button {{action 'detailShow'}}> Detail</button>
   {{/if}}
 </li>
+<!-- <button {{action 'addFavQuestion' question}}>Add this to my favorite</button> -->

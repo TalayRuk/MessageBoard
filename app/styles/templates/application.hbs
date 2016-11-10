@@ -15,10 +15,12 @@
         <li><a href="http://localhost:4200/about">ABOUT</a></li>
         <li><a href="http://localhost:4200/contact">CONTACT US</a></li>
       </ul>
-      <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://localhost:4200/store">MADE-IN-THAILAND</a></li>
+        <li><a href="http://localhost:4200/store/product/:product_id"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      </ul>
+      <!--  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       -->
     </div>
   </div>
 </nav>
@@ -30,7 +32,7 @@
   {{outlet}}
   <br>
   <footer class="contact">
-      {{#link-to 'contact'}} Need help? click here to Contact Us {{/link-to}}
-      {{#link-to 'index'}}  ...Homepage {{/link-to}}
+      {{#link-to 'contact'}} Need help? of If you have any Comment: click here to Contact Us {{/link-to}}
+       
   </footer>
 </div>

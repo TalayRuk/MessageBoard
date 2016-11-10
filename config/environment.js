@@ -19,9 +19,10 @@ module.exports = function(environment) {
 
     firebase: {
       apiKey: "AIzaSyCaASigqSnsUpTgBLM4ypkhY3HbjoKKJ9Y",
-    authDomain: "messageboard-87096.firebaseapp.com",
-    databaseURL: "https://messageboard-87096.firebaseio.com",
-    storageBucket: "messageboard-87096.appspot.com",
+      authDomain: "messageboard-87096.firebaseapp.com",
+      databaseURL: "https://messageboard-87096.firebaseio.com",
+      storageBucket: "messageboard-87096.appspot.com",
+      messagingSenderId: "860367359822"
     },
 
     APP: {
