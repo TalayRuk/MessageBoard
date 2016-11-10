@@ -11,10 +11,11 @@ Router.map(function() {
   this.route('contact');
   this.route('question', {path: '/question/:question_id'});
   //path id = dynamic segment
-  this.route('store' function() {
-    //add nested route product = child 
-    this.route('product', {path: '/:product_id'});
-  });
+  this.route('store');
+  // this.route('store' function() {
+  //   //add nested route product = child
+  //   this.route('product', {path: '/:product_id'});
+  // });
 });
 
 export default Router;

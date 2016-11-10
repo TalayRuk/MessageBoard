@@ -1,12 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  shoppingCart: Ember.inject.service(),
+  // shoppingCart: Ember.inject.service(),
 
-  actions: {//not working!
-    addToCart(product) {
-      this.get('shoppingCart').add(product);
-    },//only the COMMA was missing so action wasn't working!!!!
-    this.sendAction('addToCart', product):
-  }
+  // actions: {//not working!
+  //   addToCart(product) {
+  //     this.get('shoppingCart').add(product);
+  //   },//only the COMMA was missing so action wasn't working!!!!
+  //   // this.sendAction('addToCart', product):
+  // }
 });
